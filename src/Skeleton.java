@@ -8,7 +8,7 @@ public class Skeleton extends Boss {
         public String printInfo(){
             return "BOSS: " + " HEALTH: " + Boss.getHealth() + " DAMAGE: " + Boss.getDamage()
                     + " WEAPON: " + Boss.getHammer().getWeapon()
-                    + " NAME OF THE WEAPON: " + Boss.getHammer().getNameOfWeapon()+ getArrows();
+                    + " NAME OF THE WEAPON: " + Boss.getHammer().getNameOfWeapon() + "AMOUNT OF ARROWS "+ getArrows();
         }
 
         public void setArrows(int arrows) {
