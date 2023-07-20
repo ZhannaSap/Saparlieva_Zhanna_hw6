@@ -1,13 +1,13 @@
 public class GameEntity {
-    private int health;
-    private int damage;
+    public static int health;
+    public static int damage;
 
     public GameEntity(int health, int damage) {
         this.health = health;
         this.damage = damage;
     }
 
-    public int getHealth() {
+    public static int getHealth() {
         return health;
     }
 
@@ -15,7 +15,7 @@ public class GameEntity {
         this.health = health;
     }
 
-    public int getDamage() {
+    public static int getDamage() {
         return damage;
     }
 
